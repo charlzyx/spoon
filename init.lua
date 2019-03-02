@@ -8,11 +8,11 @@ local cmdAltShift = {'cmd', 'alt', 'shift'}
 
 -- GOD LIKE
 hs.hotkey.bind(cmd, 'H', function()end)
-hs.hotkey.bind(cmd, 'E', hs.hints.windowHints)
+hs.hotkey.bind(cmd, 'M', hs.hints.windowHints)
 
 -- 看看这是不是双屏用的
-hs.hotkey.bind(cmdAlt, 'H', function() spoon.WinWin:moveToScreen('left') end)
-hs.hotkey.bind(cmdAlt, 'L', function() spoon.WinWin:moveToScreen('right') end)
+-- hs.hotkey.bind(cmdAlt, 'H', function() spoon.WinWin:moveToScreen('left') end)
+-- hs.hotkey.bind(cmdAlt, 'L', function() spoon.WinWin:moveToScreen('right') end)
 
 
 -- === Plugin Loading ===
